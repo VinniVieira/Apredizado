@@ -5,6 +5,6 @@ nome = "vinicius"
 idade = 20
 saldo = -100,00
 
-print ("Olá " + nome + "sua idade é" + idade + "seu saldo bancario é:" + saldo)
+print ("Olá" + nome)
 
 #tipos de dados: inteiro(Numeros), boleano (Numeros fracionarios), string(Texto""") e flowt ()
