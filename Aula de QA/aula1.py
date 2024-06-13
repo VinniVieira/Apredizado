@@ -1,11 +1,10 @@
 nome = "Paula Matins"
 mes = "Janeiro"
-Valor = 500,00
-Desconto = 10
+valor = 500,00
+desconto = 10
 cupom = "PAULAÉ10"
 
-mensagem1 = f"O nome da pessoa é {nome}"
-mensagem2 = "O nome da pessoa é {}".format (nome)
-mensagem3 = "O nome da pessoa é {a}".format (a=nome, b=mes)
+format_1 = f"O nome da pessoa é {nome}, desconto dela é {desconto}"
+format_2 = "O nome da pessoa é {}, , desconto dela é {}".format (nome, desconto)
+format_3 = "O nome da pessoa é {a}, , desconto dela é {b}".format (a=nome, b=mes)
 
-print = ("mensagem1")
