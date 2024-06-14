@@ -18,3 +18,5 @@ git init = novo repo
 # Array é pushar varias info
 
 #Crtl + Shift + k = apagar linha
+
+Ctrl + ; = comentar linha de codigo
