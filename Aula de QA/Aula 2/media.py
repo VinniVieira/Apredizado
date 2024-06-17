@@ -1,12 +1,12 @@
-Nota1 = float(input("digite a primeira nota: "))
-Nota2 = float(input("digite a primeira nota: "))
-Nota3 = float(input("digite a primeira nota: "))
-Nota4 = float(input("digite a primeira nota: "))
+nota1 = float(input("digite a primeira nota: "))
+nota2 = float(input("digite a primeira nota: "))
+nota3 = float(input("digite a primeira nota: "))
+nota4 = float(input("digite a primeira nota: "))
 
-notas = (Nota1, Nota2, Nota3, Nota4)
-soma = sum (notas)
-media = (soma/len(notas))
+notas = (nota1, nota2, nota3, nota4)
+media = (sum (notas)/len(notas))
 
 # len mostra quantidade de valores dentro de uma lista, ela retorna o numero de elementos
 
-print (f"A soma das notas é {soma} e a media é igual a {media}")
+print (f"As notas são: {notas} e a media é igual a {media}")
+ 
