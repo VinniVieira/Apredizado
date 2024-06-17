@@ -5,7 +5,7 @@ Ctrl + " = abrir terminal
 
 # var no py não precisa chamar "var" é colocar direto, por exemplo nome --> nome = "vinicius"
 
-# tipos de dados: inteiro(Numeros), boleano (Numeros fracionarios), string(Texto""") e flowt ()
+# tipos de dados: inteiro(Numeros), boleano (s), string(Texto""") e flowt (Numeros fracionario 1,85)
 
 
 git init = novo repo
