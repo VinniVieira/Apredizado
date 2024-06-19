@@ -13,5 +13,5 @@ print (linguagens_lista)
 linguagens_lista.extend(["Malbolge", "ruby"]) # permite adicionar mais de um argumento
 print (linguagens_lista)
 
-linguagens_lista.pop(o) # remove o
+linguagens_lista.pop() # remove o
 print (linguagens_lista)
