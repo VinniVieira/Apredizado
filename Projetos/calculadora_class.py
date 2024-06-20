@@ -22,43 +22,43 @@ class Calculadora:
     def potenciacao(self, a, b):
         return a ** b
 
-# Instacia da classe
-def main():
-    calc = Calculadora()
+# Instacia da classe   -> calc = cjamar calculadora
+calc = Calculadora()
 
 # Pergunta operação
 
-    num1 = float (input ("Digite um numero: "))
+num1 = float (input ("Digite um numero: "))
 
-    op = (input("Digite a operação que deseja fazer (+, -, *, /, **): "))
+op = (input("Digite a operação que deseja fazer (+), (-), (*), (/), (**): "))
 
-    num2 = float (input ("Digite mais um numero: "))
+num2 = float (input ("Digite mais um numero: "))
 
-    if op == "+":
-        resultado = calc.soma(num1, num2)
-        print(f"{num1} + {num2} = {resultado}")
+if op == "+":
+    resultado = calc.soma(num1, num2)
+    print(f"{num1} + {num2} = {resultado}")
 
-    elif op == "-":
-        resultado = calc.subtracao(num1, num2)
-        print(f"{num1} - {num2} = {resultado}")
+elif op == "-":
+    resultado = calc.subtracao(num1, num2)
+    print(f"{num1} - {num2} = {resultado}")
 
-    elif op == "*":
-        resultado = calc.multiplicacao(num1, num2)
-        print(f"{num1} * {num2} = {resultado}")
+elif op == "*":
+    resultado = calc.multiplicacao(num1, num2)
+    print(f"{num1} * {num2} = {resultado}")
 
-    elif op == "/":
-        resultado = calc.divisao(num1, num2)
-        print(f"{num1} / {num2} = {resultado}")
+elif op == "/":
+    resultado = calc.divisao(num1, num2)
+    print(f"{num1} / {num2} = {resultado}")
 
-    elif op == "**":
-        resultado = calc.potenciacao(num1, num2)
-        print(f"{num1} ** {num2} = {resultado}")
+elif op == "**":
+    resultado = calc.potenciacao(num1, num2)
+    print(f"{num1} ** {num2} = {resultado}")
 
 
-    else: 
-        print("Operação inválida. Por favor, escolha +, -, *, /, ou **.")
+else: 
+    print("Operação inválida. Por favor, escolha +, -, *, /, ou **.")
 
 
 # Chamada da função principal
-if __name__ == "__main__":
-    main()
+
+
+#faz uma classe com carros, dps ficar chamndo as classe
